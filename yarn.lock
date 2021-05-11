@@ -1356,6 +1356,11 @@ alphanum-sort@^1.0.0:
   resolved "https://registry.yarnpkg.com/alphanum-sort/-/alphanum-sort-1.0.2.tgz#97a1119649b211ad33691d9f9f486a8ec9fbe0a3"
   integrity sha1-l6ERlkmyEa0zaR2fn0hqjsn74KM=
 
+alpine-magic-helpers@^1.2.2:
+  version "1.2.2"
+  resolved "https://registry.yarnpkg.com/alpine-magic-helpers/-/alpine-magic-helpers-1.2.2.tgz#94715d8f25ff3806d65a1b4f7f7719418266ae71"
+  integrity sha512-eOEpIV22Qrp3R1Y3PO1ku1bishB5rDVlW9jcCfIwytmu//F7OirpBdGTgrQwPHQz3RWdy4+EEBJHnNs7CZVjaQ==
+
 alpine-turbo-drive-adapter@^1.0.1:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/alpine-turbo-drive-adapter/-/alpine-turbo-drive-adapter-1.1.0.tgz#615eb19c13599b7a028130cc28d1416b3de58c17"
@@ -5166,7 +5171,7 @@ postcss-modules-values@^4.0.0:
   dependencies:
     icss-utils "^5.0.0"
 
-postcss-nested@5.0.5:
+postcss-nested@5.0.5, postcss-nested@^5.0.5:
   version "5.0.5"
   resolved "https://registry.yarnpkg.com/postcss-nested/-/postcss-nested-5.0.5.tgz#f0a107d33a9fab11d7637205f5321e27223e3603"
   integrity sha512-GSRXYz5bccobpTzLQZXOnSOfKl6TwVr5CyAQJUPub4nuRJSOECK5AqurxVgmtxP48p0Kc/ndY/YyS1yqldX0Ew==

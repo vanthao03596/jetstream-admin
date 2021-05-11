@@ -22,8 +22,10 @@
         "lodash": "^4.17.19",
         "postcss": "^8.1.14",
         "postcss-import": "^14.0.1",
+        "postcss-nested": "^5.0.5",
         "pusher-js": "^7.0.2",
         "stimulus": "^2.0.0",
-        "tailwindcss": "^2.0.1"
+        "tailwindcss": "^2.0.1",
+        "alpine-magic-helpers": "^1.2.2"
     }
 }

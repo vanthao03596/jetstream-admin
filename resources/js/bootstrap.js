@@ -1,5 +1,3 @@
-window._ = require('lodash');
-
 /**
  * We'll load the axios HTTP library which allows us to easily issue requests
  * to our Laravel back-end. This library automatically handles sending the
@@ -10,10 +8,10 @@ window.axios = require('axios');
 
 window.axios.defaults.headers.common['X-Requested-With'] = 'XMLHttpRequest';
 
-import Echo  from './echo';
+// import Echo  from './echo';
 
-window.Echo = Echo;
+// window.Echo = Echo;
 
-document.addEventListener('turbo:before-fetch-request', (e) => {
-    e.detail.fetchOptions.headers['X-Socket-ID'] = Echo.socketId();
-});
+// document.addEventListener('turbo:before-fetch-request', (e) => {
+//     e.detail.fetchOptions.headers['X-Socket-ID'] = Echo.socketId();
+// });
